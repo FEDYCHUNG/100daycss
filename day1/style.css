@@ -1,0 +1,41 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #43389F;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+}
+
+.big {
+  position: relative;
+  z-index: 20;
+  display: block;
+  font-size: 82px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 60px;
+  font-weight: 700;
+  margin-top: 6px;
+  color: #FFF;
+}
+
+.small {
+  position: relative;
+  z-index: 20;
+  display: block;
+  letter-spacing: 0.04em;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
