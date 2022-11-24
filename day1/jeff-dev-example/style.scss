@@ -1,0 +1,63 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+// use only the available space inside the 400x400 frame
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #fff;
+    color: #333;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+    font-family: "Delius Unicase", cursive;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.numbers {
+    font-family: "Monoton", cursive;
+    font-size: 150px;
+    line-height: 10px;
+    color: #fff;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 60px;
+    letter-spacing: -12px;
+    margin-left: -10px;
+}
+.text1 {
+    font-family: "Monoton", cursive;
+    letter-spacing: 28px;
+    font-size: 60px;
+    margin: 0px;
+    color: transparent;
+    background: linear-gradient(135deg, #feb692 20%, #ea5455 100%);
+    -webkit-background-clip: text;
+}
+.text2 {
+    // font-weight:bold;
+    margin: 0px;
+    font-size: 40px;
+    padding: 3px;
+    display: inline;
+    box-shadow: inset 0px 0px 0px 100px #dd105e;
+    color: #fff;
+    font-family: "Monoton", cursive;
+    line-height: 60px;
+}
